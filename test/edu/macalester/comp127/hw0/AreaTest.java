@@ -17,4 +17,9 @@ public class AreaTest {
     public void testCircle() {
         assertEquals(28.2743, Area.getCircleArea(3.0), 0.001);
     }
+
+    @Test
+    public void testDouble() {
+        assertEquals(100, Area.getDouble(50), 0.001);
+    }
 }
